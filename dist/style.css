@@ -1,0 +1,107 @@
+@font-face {
+    font-family: DM Sans;
+    src: url(DMSans-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: Chaplin;
+    src: url(ChaplinCGRegular.otf);
+}
+.filler-text {
+    font-size: 60px;
+    font-family: DM Sans;
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+.to-be-edited {
+    font-size: 40px;
+    font-family: Chaplin;
+    margin: 0 0;
+    text-align: center;
+}
+#content {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    margin: 0 0;
+    font-family: DM Sans;
+    background-color: #09c1f4;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#header {
+    display: flex;
+    width: 100%;
+    height: 8em;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+#logo-header {
+    width: 170px;
+}
+#logo-header:hover {
+    cursor: pointer;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6%;
+    font-size: 18px;
+    height: 2em;
+    margin-bottom: 10px;
+}
+.tab {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.tab:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: white;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 3px;
+    cursor: pointer;
+}
+
+#welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/nepenthe-img.jpeg);
+    background-size:cover;
+    background-position: center;
+    height: 65vh;
+}
+#welcome-message {
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+}
+#nepenthe-fancy {
+    font-family: Chaplin;
+    font-size: 45px;
+}
+
+#footer {
+    display: flex;
+    width: 100%;
+    height: 6em;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    background-color: #09c1f4;
+    padding: 10px 0 10px 0;
+}
+#address {
+    margin: 0 0;
+    font-size: 14px;
+    position: absolute;
+    text-align: center;
+}
